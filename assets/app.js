@@ -140,7 +140,7 @@
       var g = t.governance;
       return pageHero(g) +
         '<section class="section"><div class="wrap split"><div class="stack"><h2 class="h2">' + f(g.presTitle) + "</h2>" + president(t) + '</div><div class="stack"><h2 class="h2">' + f(g.boardTitle) + "</h2><p>" + f(g.boardNote) + "</p>" +
-        '<div class="grid">' + g.board.map(function (m) { return '<div class="card person"><span class="avatar" aria-hidden="true">?</span><div><strong>' + f(m[0]) + "</strong><span>" + f(m[1]) + "</span></div></div>"; }).join("") + "</div></div></div></section>" +
+        '<ul class="board-list">' + g.board.map(function (m) { return '<li><strong>' + f(m[0]) + "</strong><span>" + f(m[1]) + "</span></li>"; }).join("") + "</ul></div></div></section>" +
         '<section class="section"><div class="wrap stack" style="max-width:760px;margin-inline:auto"><h2 class="h2">' + f(g.docsTitle) + "</h2>" + g.docs.map(docRow).join("") + "</div></section>" + ctaBand(t);
     },
     partners: function (t) {
