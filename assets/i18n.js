@@ -68,7 +68,7 @@ window.I18N = {
       items: [
         { d: 0, t: "Soutien scolaire", p: "Accompagnement d'élèves de différents niveaux, avec un accent sur les niveaux certificatifs : fournitures et livres, fêtes de motivation et séances de médiation familiale.", b: "Plus de 50 élèves" },
         { d: 1, t: "Sorties culturelles et de loisirs pour les femmes", p: "Deux sorties de détente et de renforcement des liens sociaux, avec des visites culturelles et religieuses.", b: "Plus de 170 bénéficiaires" },
-        { d: 4, t: "Distribution du couffin de Ramadan", p: "Distribution de paniers alimentaires du mois de Ramadan au profit de 25 familles.", b: "25 familles", pe: "{{Année à préciser}}", photos: true },
+        { d: 4, t: "Distribution du couffin de Ramadan", p: "Distribution de paniers alimentaires du mois de Ramadan au profit de 25 familles.", b: "25 familles", pe: "Ramadan 2026", photos: "ramadan-couffin.jpg" },
         { d: 2, t: "Caravane médicale multidisciplinaire", p: "Consultations dans plusieurs spécialités et mesures médicales au profit de la population.", l: "Beni Yakhlef et environs", b: "900 personnes" },
         { d: 3, t: "Célébration de la Marche Verte", p: "Activité éducative locale pour les enfants au Hay Mohammadi, puis grande marche symbolique.", l: "Hay Mohammadi", b: "Plus de 900 participants", pa: "École Chérif Al Idrissi" },
         { d: 2, t: "Soutien psychologique et médiation familiale", p: "Ateliers de soutien psychologique pour les femmes et les mères, médiation familiale et résolution des conflits, accompagnement des femmes victimes de violence ou en difficulté sociale, soutien aux élèves en difficulté psychologique ou comportementale." },
@@ -218,7 +218,7 @@ window.I18N = {
       items: [
         { d: 0, t: "School tutoring", p: "Support for pupils at all levels, with a focus on exam years: school supplies and books, motivation events and family mediation sessions.", b: "Over 50 pupils" },
         { d: 1, t: "Cultural and leisure outings for women", p: "Two trips for relaxation and stronger social ties, including cultural and religious visits.", b: "Over 170 women" },
-        { d: 4, t: "Ramadan food basket distribution", p: "Distribution of Ramadan food baskets to 25 families.", b: "25 families", pe: "{{Year to confirm}}", photos: true },
+        { d: 4, t: "Ramadan food basket distribution", p: "Distribution of Ramadan food baskets to 25 families.", b: "25 families", pe: "Ramadan 2026", photos: "ramadan-couffin.jpg" },
         { d: 2, t: "Multidisciplinary medical caravan", p: "Consultations in several specialities and medical measurements for local residents.", l: "Beni Yakhlef and surroundings", b: "900 people" },
         { d: 3, t: "Green March celebration", p: "A local educational activity for children in Hay Mohammadi, followed by a large symbolic march.", l: "Hay Mohammadi", b: "Over 900 participants", pa: "Chérif Al Idrissi School" },
         { d: 2, t: "Psychological support and family mediation", p: "Psychological support workshops for women and mothers, family mediation and conflict resolution, support for women facing violence or social hardship, and help for pupils with psychological or behavioural difficulties." },
@@ -368,7 +368,7 @@ window.I18N = {
       items: [
         { d: 0, t: "الدعم المدرسي", p: "مواكبة التلاميذ في مختلف المستويات مع التركيز على المستويات الإشهادية: توفير المستلزمات والكتب، حفلات تحفيزية وجلسات وساطة أسرية.", b: "أزيد من 50 تلميذاً وتلميذة" },
         { d: 1, t: "أنشطة ثقافية وترفيهية للنساء", p: "رحلات للاستجمام وتقوية الروابط الاجتماعية، وزيارات ثقافية ودينية لتعزيز الوعي التراثي والقيمي.", b: "أزيد من 170 مستفيدة" },
-        { d: 4, t: "توزيع قفة رمضان", p: "توزيع قفة رمضان لفائدة 25 أسرة.", b: "25 أسرة", pe: "{{السنة للتحديد}}", photos: true },
+        { d: 4, t: "توزيع قفة رمضان", p: "توزيع قفة رمضان لفائدة 25 أسرة.", b: "25 أسرة", pe: "رمضان 2026", photos: "ramadan-couffin.jpg" },
         { d: 2, t: "القافلة الطبية متعددة التخصصات", p: "فحوصات في تخصصات متعددة وقياسات طبية مختلفة لفائدة الساكنة.", l: "بني يخلف ونواحيها", b: "900 شخص" },
         { d: 3, t: "الاحتفال بالمسيرة الخضراء", p: "نشاط تربوي محلي للأطفال بالحي المحمدي، ومسيرة رمزية كبرى.", l: "الحي المحمدي", b: "أكثر من 900 مشارك", pa: "مدرسة الشريف الإدريسي" },
         { d: 2, t: "الدعم النفسي والوساطة الأسرية", p: "ورشات دعم نفسي لفائدة النساء والأمهات، جلسات وساطة أسرية وحل النزاعات، مواكبة خاصة للحالات المعنفة أو اللواتي يعانين من صعوبات اجتماعية، ودعم التلاميذ الذين يعانون من صعوبات نفسية أو سلوكية." },

@@ -37,7 +37,7 @@
     if (p.l) meta += "<dt>" + esc(L.place) + "</dt><dd>" + f(p.l) + "</dd>";
     if (p.b) meta += "<dt>" + esc(L.ben) + "</dt><dd>" + f(p.b) + "</dd>";
     if (p.pa) meta += "<dt>" + esc(L.partners) + "</dt><dd>" + f(p.pa) + "</dd>";
-    var photos = p.photos ? '<div class="photo card-photo">' + PATTERN + '<span class="photo-label">' + esc(t.projects.photosTodo) + "</span></div>" : "";
+    var photos = typeof p.photos === "string" ? '<figure class="card-shot"><img src="img/' + p.photos + '" alt="' + esc(p.t) + '" loading="lazy"></figure>' : p.photos ? '<div class="photo card-photo">' + PATTERN + '<span class="photo-label">' + esc(t.projects.photosTodo) + "</span></div>" : "";
     return '<article class="card project"><div class="project-top" data-d="' + p.d + '">' + PATTERN + '<span class="tag">' + f(t.axes[p.d][0]) + "</span></div>" +
       '<div class="project-body"><span class="period">' + f(p.pe || t.projects.period) + "</span><h3>" + f(p.t) + "</h3><p>" + f(p.p) + "</p>" +
       (meta ? '<dl class="meta">' + meta + "</dl>" : "") + photos + (p.link ? '<a class="card-link" href="#' + p.link + '">' + esc(t.robotics.more) + ' <span class="arrow" aria-hidden="true">→</span></a>' : "") + "</div></article>";
